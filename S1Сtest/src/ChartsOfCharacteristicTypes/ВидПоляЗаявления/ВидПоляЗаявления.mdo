@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="37442ea9-44d0-4430-857f-d92400bf9d3d">
+  <producedTypes>
+    <objectType typeId="8c9a57a3-95c8-432f-85a4-0db725f744e9" valueTypeId="306ada57-8cd6-4906-ac3e-e0f10c739c8b"/>
+    <refType typeId="82a9c39b-2a67-4f54-845a-4b530b5a7ac9" valueTypeId="f2e0466f-8f08-4363-a55a-86a454b558c8"/>
+    <selectionType typeId="65041189-fcc4-48e6-8a21-2736569c3717" valueTypeId="c87f32bf-658f-4cc7-9d39-be0dec76d651"/>
+    <listType typeId="a76abac1-9c41-4193-bbd6-b2d158731739" valueTypeId="08df4260-99df-4888-aecb-bd8ff8168114"/>
+    <managerType typeId="132298b6-f9ee-492c-a81d-b9b9fa24cf46" valueTypeId="af8bd48d-84c5-4b79-8c8f-70a229d0ab75"/>
+    <containerType typeId="1363426e-978e-4765-9ed9-52d9240d4e3d" valueTypeId="b2f5402c-8c55-4179-99d9-27e848120851"/>
+  </producedTypes>
+  <name>ВидПоляЗаявления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид поля заявления</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.ВидПоляЗаявления.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.ВидПоляЗаявления.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Вид поля</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Вид поля заявления</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Виды полей</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Виды полей заявления</value>
+  </extendedListPresentation>
+  <characteristicExtValues>Catalog.ЗначенияПолейЗаявления</characteristicExtValues>
+  <type>
+    <types>Boolean</types>
+    <types>CatalogRef.ЗначенияПолейЗаявления</types>
+    <types>String</types>
+    <types>Date</types>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>1000</length>
+    </stringQualifiers>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>50</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="acfb9a77-39ba-4b71-9bb8-2dab1b7b6762">
+      <name>ДатаЗаявления</name>
+      <description>Дата заявления</description>
+      <code>00006</code>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+    </items>
+    <items id="1521698c-6e88-40d8-8917-6a0439d76f8c">
+      <name>ДатаРождения</name>
+      <description>Дата рождения</description>
+      <code>00002</code>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+    </items>
+    <items id="ecfe7eff-a61f-434c-bc04-ef790889c483">
+      <name>НаименованиеОрганизации</name>
+      <description>Наименование организации</description>
+      <code>00004</code>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+    </items>
+    <items id="fdc4ebf6-172f-4797-ba3a-e6f55ec94938">
+      <name>ПаспортныеДанные</name>
+      <description>Паспортные данные</description>
+      <code>00003</code>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>1000</length>
+        </stringQualifiers>
+      </type>
+    </items>
+    <items id="1e6b6043-7a4b-4e9c-9fd8-843c7a29706c">
+      <name>РеквизитыОрганизации</name>
+      <description>Реквизиты организации</description>
+      <code>00005</code>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>1000</length>
+        </stringQualifiers>
+      </type>
+    </items>
+    <items id="6f996b11-9b84-4883-85f0-a1c6f6c1ba79">
+      <name>ФИО</name>
+      <description>ФИО</description>
+      <code>00001</code>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="745b5bd5-3eca-4671-b0da-fea386a7be4e">
+    <name>КатегорияПолучателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Категория получателя</value>
+    </synonym>
+    <type>
+      <types>EnumRef.КатегорияПолучателя</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:ChartOfCharacteristicTypes>

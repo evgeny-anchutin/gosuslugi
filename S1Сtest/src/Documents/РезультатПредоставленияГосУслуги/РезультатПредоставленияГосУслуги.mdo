@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="69753f98-485c-458d-820e-6345bb8586fd">
+  <producedTypes>
+    <objectType typeId="9eff3312-61d9-4b4e-82de-347829d73288" valueTypeId="42cc5e18-ea6d-4f01-bff3-54002cf85595"/>
+    <refType typeId="4630a878-c909-496a-8911-1838af540629" valueTypeId="902e7ec7-c97a-42e0-8c9e-5ebbad4530d1"/>
+    <selectionType typeId="a2117102-e543-4b02-bbf1-5ffbb66d84d4" valueTypeId="12239859-f0da-4e94-8b47-e442b0869a32"/>
+    <listType typeId="201b5c18-5ed4-4645-a887-01d43fdf4b9c" valueTypeId="b46f01cc-48da-4cce-ba46-fe9ed71308ae"/>
+    <managerType typeId="404232db-815d-4c12-ad43-4a7948b11ea7" valueTypeId="c07fe96b-491c-4dc9-a51d-0c0edc8e7e0b"/>
+  </producedTypes>
+  <name>РезультатПредоставленияГосУслуги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Результат предоставления гос. услуги</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.РезультатПредоставленияГосУслуги.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <posting>Deny</posting>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="ba97adee-85e1-436d-bd69-9c9d716d06eb">
+    <name>ВидРезультата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид результата</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыРезультатаПредоставленияГосУслуги</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e615b2af-0c0f-4cb6-8277-4fdcfbe672c2">
+    <name>ГосУслуга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гос услуга</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ГосУслуги</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0ecaacfe-99bc-40bd-b4f9-dcda9b0c0299">
+    <name>Получатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получатель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+      <types>CatalogRef.ЮридическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5630248d-70f7-4703-94a1-16658a91bebd">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

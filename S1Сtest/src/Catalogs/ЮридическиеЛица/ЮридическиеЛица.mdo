@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b5e78e21-6eb4-4e01-a859-d816e282d0cf">
+  <producedTypes>
+    <objectType typeId="b480fca3-19bb-4c8d-b68b-2b8fe0f8a016" valueTypeId="a5d589fd-0922-4e37-ba05-83d63fda8333"/>
+    <refType typeId="f600fcda-3d6a-43f5-90d5-d7dc10d4b6d9" valueTypeId="299a8088-d45a-4fb7-9aeb-0b09f41e2098"/>
+    <selectionType typeId="9aae168f-b612-442b-92ae-5ed5801b6f83" valueTypeId="2eb35fb7-c99e-479f-86d7-e7af6c9695a4"/>
+    <listType typeId="b6044d69-58b7-4034-8d15-62feffaf4601" valueTypeId="d7eecce2-e6ca-4438-b8bc-a71774d108e9"/>
+    <managerType typeId="7f8705c7-4c6c-4bbf-beea-5d2de8a1c11c" valueTypeId="c619c9f2-3ee8-4de3-bc92-bda0352d99d6"/>
+  </producedTypes>
+  <name>ЮридическиеЛица</name>
+  <synonym>
+    <key>ru</key>
+    <value>Юридические лица</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЮридическиеЛица.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЮридическиеЛица.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="38109374-dc37-4f1f-ace7-ed0f1d111991">
+    <name>Реквизиты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизиты</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1000</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

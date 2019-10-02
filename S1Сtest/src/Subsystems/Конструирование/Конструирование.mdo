@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cad32911-87db-4d14-9913-6e6c88e75e7f">
+  <name>Конструирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Конструирование</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Конструирование</picture>
+  </picture>
+  <content>InformationRegister.РегистрАдресации</content>
+  <content>Enum.ВидыРезультатаПредоставленияГосУслуги</content>
+  <content>Enum.ВидыЭтаповПредоставленияГосУслуги</content>
+  <content>Catalog.Ведомства</content>
+  <content>Catalog.ГосУслуги</content>
+  <content>Catalog.КатегорииГосУслуг</content>
+  <content>Catalog.Должности</content>
+  <content>Catalog.Пользователи</content>
+  <content>Catalog.ФизическиеЛица</content>
+  <content>Task.Задача</content>
+  <content>BusinessProcess.ПредоставлениеГосуслуги</content>
+  <content>ChartOfCharacteristicTypes.ВидПоляЗаявления</content>
+  <content>Catalog.ЗначенияПолейЗаявления</content>
+  <content>Catalog.ЮридическиеЛица</content>
+  <content>CommonPicture.Конструирование</content>
+</mdclass:Subsystem>

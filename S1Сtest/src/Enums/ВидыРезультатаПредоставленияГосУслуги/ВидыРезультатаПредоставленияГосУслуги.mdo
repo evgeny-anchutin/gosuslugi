@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7ff96c86-8b7f-4f7c-87ff-00090f9d19e6">
+  <producedTypes>
+    <refType typeId="959a972a-7989-4328-b21d-ae4134468716" valueTypeId="f33fe134-6e59-436d-a1d8-71d364062c16"/>
+    <listType typeId="312edc5a-5859-4133-b88f-ed3a567c97be" valueTypeId="73e35787-a91e-4598-974b-32f3b01eb832"/>
+    <managerType typeId="7e6cba09-32b5-4eff-b2ae-e00d5ee13c25" valueTypeId="4d8ff09d-62d6-4d69-98e3-9fc9e5c9bc7b"/>
+  </producedTypes>
+  <name>ВидыРезультатаПредоставленияГосУслуги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды результата предоставления гос. услуги</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1a4f69c8-bb2a-4023-a419-1b9e340e63c2">
+    <name>Разрешение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разрешение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="af273b3a-3035-4545-b068-8fcbe83a39f4">
+    <name>Отказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отказ</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

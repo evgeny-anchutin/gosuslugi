@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="92c6ea4e-c972-4295-9035-34f7a8accfc7">
+  <name>StateService</name>
+  <synonym>
+    <key>ru</key>
+    <value>State service</value>
+  </synonym>
+  <rootURL>StateService</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="186cab16-9873-492c-aa4d-4693a72d2fc5">
+    <name>GetData</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get data</value>
+    </synonym>
+    <template>/{ИмяМетода}</template>
+    <methods uuid="71078247-4fff-4974-acdc-baf42ca426b9">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>GetDataGET</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="7fd3c966-d75b-4d67-a8c7-297ec00b811d">
+    <name>POSTProcessing</name>
+    <synonym>
+      <key>ru</key>
+      <value>POSTProcessing</value>
+    </synonym>
+    <template>/Processing/{ИмяМетода}</template>
+    <methods uuid="afcf0d01-c767-455d-aacb-5a2d113013e0">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>POSTServicePOST</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

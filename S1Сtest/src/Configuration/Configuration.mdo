@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9629027e-7d44-4945-a192-0082f262a808">
+  <name>Конфигурация</name>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="4d83f420-488e-492d-b775-ff943aa01fe5"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="0079093b-ef61-4c6a-a6a1-06197d766d38"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="00f22469-1b60-4e03-98f0-9507ff7d19e9"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="23063da7-55a3-435c-96ae-66d91d46e0ef"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="72fee74b-ad13-43ee-9668-ced3a363754e"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="d3a69254-b26b-467b-bd50-5622ccaa609b"/>
+  <configurationExtensionCompatibilityMode>8.3.14</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.ПолныеПрава</defaultRoles>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.12</compatibilityMode>
+  <languages uuid="cfb07448-2a2c-42bd-bc47-9763b2f7bcd2">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Конструирование</subsystems>
+  <subsystems>Subsystem.Предоставление</subsystems>
+  <commonPictures>CommonPicture.Конструирование</commonPictures>
+  <commonPictures>CommonPicture.Предоставление</commonPictures>
+  <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
+  <roles>Role.ПолныеПрава</roles>
+  <roles>Role.Заявитель</roles>
+  <roles>Role.Исполнитель</roles>
+  <roles>Role.Конструктор</roles>
+  <roles>Role.Координатор</roles>
+  <commonModules>CommonModule.Пользователи</commonModules>
+  <httpServices>HTTPService.StateService</httpServices>
+  <catalogs>Catalog.Ведомства</catalogs>
+  <catalogs>Catalog.ГосУслуги</catalogs>
+  <catalogs>Catalog.Должности</catalogs>
+  <catalogs>Catalog.ЗначенияПолейЗаявления</catalogs>
+  <catalogs>Catalog.КаналыПоступленияЗаявлений</catalogs>
+  <catalogs>Catalog.КатегорииГосУслуг</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.ФизическиеЛица</catalogs>
+  <catalogs>Catalog.ЮридическиеЛица</catalogs>
+  <documents>Document.ЗаявлениеНаПредоставлениеГосуслуги</documents>
+  <documents>Document.РезультатПредоставленияГосУслуги</documents>
+  <enums>Enum.ВидыРезультатаПредоставленияГосУслуги</enums>
+  <enums>Enum.ВидыЭтаповПредоставленияГосУслуги</enums>
+  <enums>Enum.КатегорияПолучателя</enums>
+  <informationRegisters>InformationRegister.РегистрАдресации</informationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВидПоляЗаявления</chartsOfCharacteristicTypes>
+  <businessProcesses>BusinessProcess.ПредоставлениеГосуслуги</businessProcesses>
+  <tasks>Task.Задача</tasks>
+</mdclass:Configuration>

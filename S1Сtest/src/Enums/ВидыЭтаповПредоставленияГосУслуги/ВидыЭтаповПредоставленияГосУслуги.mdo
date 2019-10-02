@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3e6df189-0db5-4750-815f-f4ed666d97d9">
+  <producedTypes>
+    <refType typeId="b63bc6f0-c367-4b2c-b4db-16513db0bbfd" valueTypeId="54a84b9e-a32e-4ed4-b636-4532dd80986d"/>
+    <listType typeId="f9828258-3606-4606-8280-7488e4cbc356" valueTypeId="ec654b0f-6019-4e7d-8eb8-671c0510964e"/>
+    <managerType typeId="7e34d4b6-7cf7-4731-88ec-64af07001d16" valueTypeId="35e30a36-9b6e-483f-8a5b-63ebf940a01c"/>
+  </producedTypes>
+  <name>ВидыЭтаповПредоставленияГосУслуги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды этапов предоставления гос. услуги</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="06cd3047-9a78-4e0b-9b65-32ea8644c9f9">
+    <name>ЗапросДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрос документов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="21b736d6-de53-4e63-86d6-256f03e74c62">
+    <name>ПроверкаДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверка документов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="75fa079d-e02e-4dab-a441-bb103717ce7e">
+    <name>ОформлениеДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оформление документов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="273b4413-0b2b-48d3-a07c-8ec218c1d1a8">
+    <name>ОплатаГоспошлины</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплата госпошлины</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="817ce610-a778-41a9-b65f-5cd705ed378a">
+    <name>ВыдачаРешения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выдача решения</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
